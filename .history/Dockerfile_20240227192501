@@ -1,0 +1,5 @@
+FROM golang:latest as IMG_GO
+
+
+
+RUN apt-get install sqlite3

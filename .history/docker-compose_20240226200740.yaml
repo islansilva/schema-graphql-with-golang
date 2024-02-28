@@ -1,0 +1,15 @@
+version: '3'
+
+
+
+services:
+  go:
+    build:
+      context: .
+    container_name: go-GraphQL
+    tty: true
+    volumes:
+      - type:
+      - ./go:/go/src
+    ports:
+      - 8080:8080

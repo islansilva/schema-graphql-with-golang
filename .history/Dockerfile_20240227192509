@@ -1,0 +1,7 @@
+FROM golang:latest as IMG_GO
+
+FROM alpine:3.14
+
+
+
+RUN apt-get install sqlite3

@@ -1,0 +1,6 @@
+FROM ubuntu:latest
+
+
+RUN apt update && \
+    apt-get install golang-go -y && \
+    apt-get install sqlite3 -y

@@ -1,0 +1,8 @@
+FROM ubuntu:latest
+
+
+RUN apt update && \
+    apt-get install golang-go && \
+    apt-get install sqlite3
+
+ENTRYPOINT [ "golang", "bash" ]
